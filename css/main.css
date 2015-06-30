@@ -39,6 +39,10 @@ input::-webkit-inner-spin-button {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
+.hvr-sweep-to-bottom.blue:before{
+  background-color: #79A426;
+  border: none;
+}
 
 .hvr-underline-from-left:before {
   content: "";
@@ -186,6 +190,17 @@ input::-webkit-inner-spin-button {
   font-size: 18px;
   font-weight: 100;
 }
+.blue-btn{
+  background-color: #3A61B1;
+  line-height: 45px;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Roboto Slab', sans-serif;
+  border-radius: 0;
+  font-size: 16px;
+  font-weight: 100;
+  border: none;
+}
 
 
 /*FORM CONTROL STYLES*/
@@ -238,6 +253,43 @@ textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus {
 .block{
   height: 50vh;
 }
+/*TEXT*/
+.text-box-right{
+  text-align: right;
+}
+.text-box-left{
+  text-align: right;
+}
+
+.content-header-right{
+  font-family: 'Roboto Slab', sans-serif;
+  color: black;
+  font-size: 36px;
+  text-align: left;
+}
+.content-header-left{
+  font-family: 'Roboto Slab', sans-serif;
+  color: black;
+  font-size: 36px;
+  text-align: left;
+}
+.text-box-bg{
+  width: 68%;
+  margin: 0 auto;
+}
+.text-box-para{
+  width: 80%;
+  margin: 1em auto;
+}
+
+.right-text{
+text-align: right;
+}
+.left-text{
+text-align: left;
+}
+
+
 .shad-box{
   background-color: rgba(255, 255, 255, 0.85);
   min-width: 50%;
