@@ -1,0 +1,269 @@
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/*universal*/
+h1{
+  font-family: 'Roboto Slab', sans-serif;
+  font-weight: bold;
+}
+p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+.hvr-sweep-to-bottom:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #3A61B1;
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: .3s;
+  transition-duration: .3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.hvr-underline-from-left:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  background: #79A426;
+  height: 4px;
+  color: #FFF;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: .3s;
+  transition-duration: .3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+
+
+/*=======navigation===============*/
+.navbar {
+  position: absolute;
+  min-height: 50px;
+  top: 0;
+  width: 100%;
+  margin-bottom: 20px;
+  border: none;
+  font-family: 'Roboto Slab', sans-serif;
+}
+.navbar-default {
+  background:none;
+  border-radius: 4px;
+  box-shadow: none;
+}
+
+.navbar > .container-fluid{
+  padding-left: 60px;
+  padding-right: 60px;
+}
+/*LOGO;*/
+.navbar-brand{
+  padding: 0;
+  margin: 0;
+}
+.navbar-brand img{
+  height: 65px;
+}
+
+
+/*****************LINK COLORS**********/
+.navbar-default .navbar-nav>li>a {
+  color: #FFF;
+  text-shadow: 0 1px 4px #000;
+  font-size: 1em;
+  letter-spacing: 2px;
+}
+.navbar-default .navbar-nav>li:hover>a {
+  color: #FFF;
+  background-color: rgba(255,255,255,0.1);
+  webkit-transition: background-color ease-in-out .35s;
+  -o-transition: background-color ease-in-out .35s;
+  transition: background-color ease-in-out .35s;
+}
+
+.learn-more-btn:hover{
+  background-color: rgba(255,255,255,0.95);
+  webkit-transition: background-color ease-in-out .35s;
+  -o-transition: background-color ease-in-out .35s;
+  transition: background-color ease-in-out .35s;
+}
+
+.jumbotron{
+  height: 86.66vh;
+  background-image: url('../img/background.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 0;
+}
+.vertical-center{
+  min-height: 90%;
+  min-height: 90vh;
+  display: flex;
+  align-items:center;
+}
+
+/*BEST IN MORTGAGE*/
+.jumbotron h1, .jumbotron .h1{
+  color: white;
+  text-shadow: 0 3px 4px #000;
+  margin: 1em 0;
+}
+
+/*LEARN MORE*/
+.learn-more-btn{
+  margin-top: 20px;
+  border: 2px solid white;
+  padding: 1em;
+  font-family: 'roboto', sans-serif;
+  letter-spacing: 2.6px;
+  color: white;
+  font-weight: 100;
+  text-transform: uppercase;
+  font-size: 19px;
+}
+
+/*CALCULATOR*/
+.calculator{
+  min-height: 374px;
+  background-color: rgba(255,255,255,0.9);
+  margin: 0 auto;
+  width: 350px;
+}
+.calc-container{
+  text-align: center;
+}
+.calc-container label{
+  width: 90%;
+}
+.calc-header{
+  font-family: 'Roboto Slab', sans-serif;
+  text-align: center;
+  padding: .5em 0 0 0;
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 0.4em;
+}
+
+.calc-form-group, label{
+  font-size: 18px;
+  font-family:'Roboto', sans-serif;
+  font-weight: 100;
+  text-align: center;
+}
+
+.green-btn{
+  background-color: #79A426;
+  line-height: 45px;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Roboto Slab', sans-serif;
+  border-radius: 0;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+
+/*FORM CONTROL STYLES*/
+.form-control {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #FFF;
+  background-color: rgba(61,87,12,0.20);
+  background-image: none;
+  border: none;
+  border-radius: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s background-color ease-in-out .35s;
+  -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s background-color ease-in-out .35s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s, background-color ease-in-out .35s;
+}
+
+.hvr-underline-from-left{
+  display: block;
+}
+
+
+textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus {   
+    border-color: black;
+    box-shadow:none;
+    outline: 0 none;
+    background-color: #79A426;
+}
+
+/*========================FOUR BLOCKS================*/
+.block-wrapper{
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.content-blocks{
+  height: 100vh;
+}
+.vertical-center-block{
+  min-height: 50%;
+  min-height: 50vh;
+  display: flex;
+  align-items:center;
+}
+.block{
+  height: 50vh;
+}
+.shad-box{
+  background-color: rgba(255, 255, 255, 0.85);
+  min-width: 50%;
+  max-width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+.shad-box > p{
+  padding: 1em;
+}
+/*TOP LEFT BLOCK*/
+.case-study{
+  background-image: url('../img/family.png');
+  background-size:100%;
+}
+/*TOP RIGHT BLOCK*/
+.read-more-case{
+  background-color: #FFF;
+}
+/*BOTTOM LEFT BLOCK*/
+.read-more-way{
+  background-color: #FFF;
+}
+/*BOTTOM RIGHT BLOCK*/
+.jrm-way{
+  background-image: url('../img/house.png');
+  background-size: 100%;
+  background-position: center;
+}
