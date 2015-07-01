@@ -7,6 +7,10 @@ h1{
   font-family: 'Roboto Slab', sans-serif;
   font-weight: bold;
 }
+h2{
+  font-family: 'Roboto Slab', sans-serif;
+  font-weight: bold;
+}
 p{
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
@@ -81,8 +85,7 @@ input::-webkit-inner-spin-button {
 }
 
 .navbar > .container-fluid{
-  padding-left: 60px;
-  padding-right: 60px;
+  max-width: 1600px;
 }
 /*LOGO;*/
 .navbar-brand{
@@ -297,13 +300,25 @@ text-align: left;
   margin: 0 auto;
   text-align: center;
 }
-.shad-box > p{
+.shad-box > p,
+.shad-box > strong{
   padding: 1em;
 }
 /*TOP LEFT BLOCK*/
 .case-study{
   background-image: url('../img/family.png');
   background-size:100%;
+}
+.case-study .testimonial{
+  font-style: italic;
+  font-size: 1.23em;
+}
+.family-name{
+  font-family: 'Roboto Slab', sans-serif;
+  float: right;
+  padding: 0.4em;
+  font-size: 1em;
+
 }
 /*TOP RIGHT BLOCK*/
 .read-more-case{
@@ -319,3 +334,136 @@ text-align: left;
   background-size: 100%;
   background-position: center;
 }
+
+
+/*FOOTER
+*/
+.newsletter{
+  text-align: center;
+  background-color:#79A426;
+}
+.news-letter-container{
+  margin: 0 auto;
+  padding: 2em;
+}
+.news-letter-container > h2 {
+  color: white;
+  font-size: 36px;
+  font-weight: 100;
+}
+.news-letter-container > .form-group{
+  margin: 0 auto;
+  padding: 1em;
+}
+.news-letter-container > .form-group > .form-control{
+  background-color: white;
+  color: black;
+  display: inline-block;''
+  }
+#newsLetter{
+  display: inline-block!important;
+}
+
+/*ENVELOPE BUTTON*/
+#signupButton{
+  position: absolute;
+  height: 36px;
+  width: 58px;
+  background-color: #3A61B1;
+  border: #3A61B1;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color ease-in-out .3s, color ease-in-out .3s;
+  -webkit-webkit-transition: background-color ease-in-out .3s, color ease-in-out .3s;
+  -moz-webkit-transition: background-color ease-in-out .3s, color ease-in-out .3s;
+  -ms-webkit-transition: background-color ease-in-out .3s, color ease-in-out .3s;
+  -o-webkit-transition: background-color ease-in-out .3s, color ease-in-out .3s;
+  webkit-transition: background-color ease-in-out .3s, color ease-in-out .3s;
+}
+#signupButton:hover{
+  background-color: white;
+  color: #79A426;
+  transition: background-color ease-in-out .3s, color ease-in-out .3s;
+  -webkit-webkit-transition: background-color ease-in-out .3s, color ease-in-out .3s;
+  -moz-webkit-transition: background-color ease-in-out .3s, color ease-in-out .3s;
+  -ms-webkit-transition: background-color ease-in-out .3s, color ease-in-out .3s;
+  -o-webkit-transition: background-color ease-in-out .3s;
+  webkit-transition: background-color ease-in-out .3s, color ease-in-out .3s;
+}
+#signupButton > i{
+    font-size: 21px;
+  /* vertical-align: middle; */
+  margin-top: 6px;
+  margin-bottom: 4px;
+}
+/*EMAIL INPUT FIELD*/
+#emailForm{
+  height: 36px;
+  border-color:white;
+  border: none;
+  outline: none;
+  padding: 0 50px;
+  font-family: 'Roboto', sans-serif;
+    transition: background-color ease-in-out .3s;
+  -webkit-webkit-transition: background-color ease-in-out .3s;
+  -moz-webkit-transition: background-color ease-in-out .3s;
+  -ms-webkit-transition: background-color ease-in-out .3s;
+  -o-webkit-transition: background-color ease-in-out .3s;
+  webkit-transition: background-color ease-in-out .3s;
+}
+
+#emailForm:focus{
+  background-color:#3A61B1;
+  color: white;
+  transition: background-color ease-in-out .3s;
+  -webkit-webkit-transition: background-color ease-in-out .3s;
+  -moz-webkit-transition: background-color ease-in-out .3s;
+  -ms-webkit-transition: background-color ease-in-out .3s;
+  -o-webkit-transition: background-color ease-in-out .3s;
+  webkit-transition: background-color ease-in-out .3s;
+}
+/*change color on autofill for google chrome*/
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+
+
+.sign-up{
+  display: inline-block;
+  background-color: blue;
+  height: 30px;
+}
+
+/*SOCIAL FOOTER AND LINKS*/
+
+.footer-content{
+  background-color: #48546E;
+  color: white;
+  text-align: center;
+}
+.icon{
+  display: inline-block;
+  padding: 1em;
+  font-size: 22px;
+}
+.footer-content ul{
+  list-style-type: none;
+}
+.footer-link{
+  font-family: 'Roboto Slab', sans-serif;
+  display: inline-block;
+}
+.footer-link > a{
+  color: white;
+  font-weight: 100;
+  margin: 0 10px;
+}
+
+hr {
+  margin-top: 0
+   margin-bottom:0; 
+  border:0;
+   border-top:0 ; 
+}
+
