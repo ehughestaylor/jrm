@@ -167,6 +167,28 @@ input::-webkit-inner-spin-button {
   margin: 0 auto;
   width: 350px;
 }
+.result{
+  min-height: 374px;
+  margin: 0 auto;
+  width: 350px;
+
+}
+.result-approved{
+    background-color: #79A426;
+    min-height: 374px;
+    margin: 0 auto;
+    width: 350px;
+    display: none;
+}
+.result-disapproved{
+  background-color: #F04B2C;
+    min-height: 374px;
+    margin: 0 auto;
+    width: 350px;
+    display: none;
+}
+
+
 .calc-container{
   text-align: center;
 }
