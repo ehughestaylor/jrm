@@ -612,6 +612,14 @@ hr {
    -webkit-box-shadow:none; 
    box-shadow: none; 
 }
+@media (max-width: 992px){
+  .navbar-default .navbar-nav>li>a {
+    color: #FFF;
+    text-shadow: 0 1px 4px #000;
+    font-size: 1.2em;
+    letter-spacing: 0px;
+  }
+}
 
 @media (max-width: 992px){
   .jumbotron{
