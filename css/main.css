@@ -3,6 +3,10 @@
    Author's custom styles
    ========================================================================== */
 /*universal*/
+body {
+    height:100% !important; // inline styles, so you need to add "!important" here
+    position:relative;
+}
 h1{
   font-family: 'Roboto Slab', sans-serif;
   font-weight: bold;
@@ -15,7 +19,9 @@ p{
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
 }
-
+.row{
+  margin: 0;
+}
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
     /* display: none; <- Crashes Chrome on hover */
@@ -336,8 +342,7 @@ text-align: left;
 }
 
 
-/*FOOTER
-*/
+/*************************NEWS LETTER FOOTER***********************/
 .newsletter{
   text-align: center;
   background-color:#79A426;
@@ -447,6 +452,10 @@ input:-webkit-autofill {
   padding: 1em;
   font-size: 22px;
 }
+.icon > a {
+  color: white;
+}
+
 .footer-content ul{
   list-style-type: none;
 }
@@ -466,4 +475,62 @@ hr {
   border:0;
    border-top:0 ; 
 }
+
+
+/*MOBILE
+*/
+.mobile-wrapper{
+  display: none;
+}
+.mobile-nav{
+  height: 50px;
+  background-color: #48546E;
+}
+.navbar-brand > img {
+  height: 50px;
+}
+.mob-block-one{
+  min-height: 35vh;
+  background-image: url(../img/background.png);
+}
+.mob-block-two{
+  min-height:25vh;
+  background-color: #48546E;
+}
+.mob-block-three{
+  min-height: 20vh;
+  background-image: url(../img/background.png);
+}
+.mob-block-four{
+  min-height: 20vh;
+  background-color: #48546E;
+}
+
+
+
+
+@media (max-width: 992px){
+  .jumbotron{
+    background-size: 100% 100%;
+    text-align: center;
+    height: auto;
+  }
+  .navbar-default .navbar-nav>li>a {
+  color: #FFF;
+  text-shadow: 0 1px 4px #000;
+  font-size: 0.8em;
+  letter-spacing: 0px;
+  }
+}
+@media (max-width: 768px){
+  .desktop-wrapper{
+    display: none;
+  }
+  .mobile-wrapper{
+    display: block;
+  }
+}
+
+
+
 
