@@ -502,6 +502,7 @@ hr {
   background-image: url(../img/background.png);
   color: white;
   text-align: center;
+  line-height: 35vh;
 }
 .mobile-header{
   text-shadow: 0 1px 4px #000;
@@ -517,6 +518,9 @@ hr {
 .mob-button{
   margin: 0 auto;
 }
+.mobile-header{
+  margin: 2em auto;
+}
 
 /*BLOCK 2*/
 
@@ -525,11 +529,13 @@ hr {
   min-height:25vh;
   background-color: #48546E;
 }
-
+.mob-link:hover,
+.mob-link:focus{
+  color: #79A426;
+  text-decoration: none;
+}
 .wayButton{
   background-color: white;
-  min-height: 25%;
-  min-height: 25vh;
   color: black;
   width: 100%;
   padding: 0;
@@ -593,7 +599,19 @@ hr {
   height: 3px;
   border-radius: 0px;
 }
-
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: #48546E;
+  border: none;
+}
+.navbar-collapse {
+  padding-right: 15px;
+  padding-left: 15px;
+  overflow-x: visible;
+  -webkit-overflow-scrolling: touch;
+   border-top: none; 
+   -webkit-box-shadow:none; 
+   box-shadow: none; 
+}
 
 @media (max-width: 992px){
   .jumbotron{
