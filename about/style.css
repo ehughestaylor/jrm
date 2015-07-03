@@ -43,12 +43,31 @@
 .save-now{
   height: 100%;
 }
+.mobile-nav{
+  display: none;
+}
 @media (max-width: 768px){
+  .navbar-default{
+    background: #48546E;
+    border-radius: 4px;
+    box-shadow: none;
+    z-index: 99;
+    text-align: right;
+    font-size: 1.4em;
+  }
+  .desktop-nav{
+    display: none;
+  }
+  .mobile-nav{
+    display: block;
+  }
   .about-header{
     font-size: 54px;
     text-align: center;
+    margin-top: 10px;
   }
   .header-text{
     text-align: center;
+    margin-top: 10px;
   }
 }
