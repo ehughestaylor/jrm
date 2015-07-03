@@ -48,7 +48,6 @@
 }
 @media (max-width: 768px){
   .about-vertical-center{
-    padding-top: 50px;
   }
   .navbar-default{
     background: #48546E;
@@ -67,7 +66,7 @@
   .about-header{
     font-size: 54px;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 50px;
   }
   .header-text{
     text-align: center;
