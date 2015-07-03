@@ -5,7 +5,7 @@
   align-items:center;
 }
 .header-text{
-  font-family: 'Roboto';
+  font-family: 'Roboto Slab';
     text-shadow: 1px 1px 4px #000;
 }
 .about-header{
@@ -39,4 +39,16 @@
 
 .icon-head{
   font-size: 3.0em;
+}
+.save-now{
+  height: 100%;
+}
+@media (max-width: 768px){
+  .about-header{
+    font-size: 54px;
+    text-align: center;
+  }
+  .header-text{
+    text-align: center;
+  }
 }

@@ -87,6 +87,7 @@
       <p>Our account management company, JRM & Associates, Inc. offers a promising solution to homeowners at risk of losing their homes. We help homeowners negotiate better rates with their lenders to avoid drastic measures such as foreclosure.</p>
       <p>Our team consists of experienced negotiators, mortgage and real estate professionals, and hardship analysts, all of whom ensure full representation for homeowners in financial trouble.</p>
       <p>JRM & Associates has a clear head start and remains one of the most ethical and reliable account management companies in the Northeast region.</p>
+      <a class="btn blue-btn hvr-sweep-to-bottom blue" data-toggle="modal" data-target="#myModal" role="button" style="font-size:2.5em; margin:1.5em auto;">SAVE NOW</a>
     </div>
   </div>
   <div class="col-xs-12 col-md-4">
@@ -97,42 +98,97 @@
     </div>
   </div>
 </div>
-<div class="row footer">
-    <div class="newsletter col-xs-12">
-      <div class="news-letter-container">
-      <h2 class="news-header">News Letter</h2>
-        <div class="form-group hvr-underline-from-left news-letter-form">
-          <form action="demo_form.asp">
-            <input type="email" id="emailForm" name="email" placeholder="youremail@email.com">
-            <a id="signupButton" alt="Submit" align="right" width="48" height="48"><i class="fa fa-envelope"></i></a>
-          </form>  
-        </div>
 
+
+<!-- MODAL
+ -->
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="calculator">
+        <h2 class="calc-header">SAVE NOW</h2>
+        <div class="calc-container" style="margin:0.5em;">
+          <div class="form-group hvr-underline-from-left calc-form-group">
+            <label for="orgPayment">Total Original Monthly Payment on Your First (or "primary") and Second Mortgage.</label>
+            <input type="number" placeholder="$" class="form-control" id="mortgagePayment" required>
+          </div>
+          <div class="form-group hvr-underline-from-left calc-form-group">
+            <label for="grossIncome">Your Gross Monthly Income.</label>
+            <input type="number" class="form-control" placeholder="$" id="monthlyIncome" min="0.01" max="1000000" onkeypress="return isNumberKey(event)">
+          </div>
+          <a class="btn green-btn hvr-sweep-to-bottom" id="calculateBtn">CALCULATE</a>
+        </div>
+      </div>
+      <div class="result result-approved">
+        <h2 class="calc-header" style="color:white;">You're Approved!</h2>
+        <div class="calc-container">
+          <div class="">
+            <div>
+            <p id="results"></p>
+            <br>
+            <p>Email us at:</p>
+            <a class="email">fameemail@fake.com</a>
+            
+            </div>
+          </div>
+        </div>                
+      </div>
+      <div class="result result-disapproved">
+        <h2 class="calc-header">Sorry you are not approved</h2>
+        <div class="calc-container">
+          <div class="">
+            <div>
+            <p id="neg-results"></p>
+            <br>
+            <p>Email us at:</p>
+            <a class="email">fakeemail@fake.com</a>
+            </div>
+          </div>
+        </div>                
       </div>
     </div>
-    <div class="footer-content col-xs-12">
-      <div class="social">
-        <ul>
-          <li class="icon hvr-float-shadow"><a href=""><i class="fa fa-facebook"></i></a></li>
-          <li class="icon hvr-float-shadow"><a href=""><i class="fa fa-instagram"></i></a></li>
-          <li class="icon hvr-float-shadow"><a href=""><i class="fa fa-twitter"></i></a></li>
-        </ul>
-      </div>
-      <div class="links">
-        <ul>
-          <li class="footer-link"><a href="#">ABOUT US</a></li>
-          <li class="footer-link"><a href="#">OUR SERVICES</a></li>
-          <li class="footer-link"><a href="#">SUCCESS STORIES</a></li>
-          <li class="footer-link"><a href="#">CONTACT US</a></li>
-          <li class=" footer-link"><a href="#">PAYMENT REDUCTION CALCULATOR</a></li>
-          <br>
-          <li class="footer-link" style="padding:0.5em; margin-top:1em; font-size:10px;">@copyright 2015</li>
-        </ul>
-      </div>
-      <div class="copy"></div>
-    </div>
+  </div>
 </div>
-    </div>
+
+
+  <div class="row footer">
+      <div style="background-color:rgba(122,164,38,0.8);" class="newsletter col-xs-12">
+        <div  class="news-letter-container">
+        <h2 class="news-header">News Letter</h2>
+          <div class="form-group hvr-underline-from-left news-letter-form">
+            <form action="demo_form.asp">
+              <input type="email" id="emailForm" name="email" placeholder="youremail@email.com">
+              <a id="signupButton" alt="Submit" align="right" width="48" height="48"><i class="fa fa-envelope"></i></a>
+            </form>  
+          </div>
+
+        </div>
+      </div>
+      <div class="footer-content col-xs-12">
+        <div class="social">
+          <ul>
+            <li class="icon hvr-float-shadow"><a href=""><i class="fa fa-facebook"></i></a></li>
+            <li class="icon hvr-float-shadow"><a href=""><i class="fa fa-instagram"></i></a></li>
+            <li class="icon hvr-float-shadow"><a href=""><i class="fa fa-twitter"></i></a></li>
+          </ul>
+        </div>
+        <div class="links">
+          <ul>
+            <li class="footer-link"><a href="#">ABOUT US</a></li>
+            <li class="footer-link"><a href="#">OUR SERVICES</a></li>
+            <li class="footer-link"><a href="#">SUCCESS STORIES</a></li>
+            <li class="footer-link"><a href="#">CONTACT US</a></li>
+            <li class=" footer-link"><a href="#">PAYMENT REDUCTION CALCULATOR</a></li>
+            <br>
+            <li class="footer-link" style="padding:0.5em; margin-top:1em; font-size:10px;">@copyright 2015</li>
+          </ul>
+        </div>
+        <div class="copy"></div>
+      </div>
+  </div>
+</div>
 
 
 
