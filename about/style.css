@@ -47,6 +47,9 @@
   display: none;
 }
 @media (max-width: 768px){
+  .about-vertical-center{
+    padding-top: 50px;
+  }
   .navbar-default{
     background: #48546E;
     border-radius: 4px;
