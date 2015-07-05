@@ -165,26 +165,26 @@ input::-webkit-inner-spin-button {
   min-height: 374px;
   background-color: rgba(255,255,255,0.9);
   margin: 0 auto;
-  width: 350px;
+  max-width: 350px;
 }
 .result{
   min-height: 374px;
   margin: 0 auto;
-  width: 350px;
+  max-width: 350px;
 
 }
 .result-approved{
     background-color: #79A426;
     min-height: 374px;
     margin: 0 auto;
-    width: 350px;
+    max-width: 350px;
     display: none;
 }
 .result-disapproved{
   background-color: #F04B2C;
     min-height: 374px;
     margin: 0 auto;
-    width: 350px;
+    max-width: 350px;
     display: none;
 }
 
@@ -218,7 +218,7 @@ input::-webkit-inner-spin-button {
   text-transform: uppercase;
   font-family: 'Roboto Slab', sans-serif;
   border-radius: 0;
-  font-size: 18px;
+  font-size: 1.2em;
   font-weight: 100;
   border: none;
 }
@@ -665,7 +665,7 @@ hr {
 /*======MODAL==========*/
 
 .modal-content{
-  width: 374px;
+  max-width: 374px;
   margin-left: AUTO;
   margin-right: auto;
   box-shadow: none;
@@ -705,6 +705,15 @@ hr {
   .links{
     display: none;
   }
+  .icon {
+  padding: 0.4em;
+  font-size: 22px;
+  }
+}
+@media (max-width: 320px){
+  #emailForm {
+  padding: 0 20px;
+}
 }
 
 
