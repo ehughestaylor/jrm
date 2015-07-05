@@ -3,7 +3,7 @@
   min-height: 60vh;
   display: flex;
   align-items:center;
-  line-height: 60%;
+  line-height: 100%;
 }
 .header-text{
   font-family: 'Roboto Slab';
@@ -52,6 +52,7 @@
 }
 @media (max-width: 768px){
   .about-vertical-center{
+    line-height: 100%;
   }
   .navbar-default{
     background: #48546E;
