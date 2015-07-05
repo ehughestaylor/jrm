@@ -2,7 +2,11 @@
   min-height: 60%;
   min-height: 60vh;
   display: flex;
-  align-items:center;
+   -webkit-box-align: center;
+  -webkit-flex-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
   line-height: 100%;
 }
 .header-text{
@@ -51,9 +55,6 @@
   display: none;
 }
 @media (max-width: 768px){
-  .about-vertical-center{
-
-  }
   .navbar-default{
     background: #48546E;
     border-radius: 4px;
@@ -73,13 +74,9 @@
     text-align: center;
     margin-top: 60px;
     line-height: 100%;
-    margin-top: 50%;
-margin-bottom: 50%;
   }
   .header-text{
     text-align: center;
     margin-top: 10px;
-    margin-top: 50%;
-margin-bottom: 50%;
   }
 }
