@@ -49,7 +49,7 @@
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
           <li class="hvr-underline-from-left"><a href="about/index.html">ABOUT US</a></li>
-          <li class="hvr-underline-from-left"><a href="#">OUR SERVICES</a></li>
+          <li class="hvr-underline-from-left"><a href="services/index.html">OUR SERVICES</a></li>
           <li class="hvr-underline-from-left"><a href="#">SUCCESS STORIES</a></li>
           <li class="hvr-underline-from-left"><a href="#">CONTACT US</a></li>
           <li class="hvr-underline-from-left"><a href="#">PAYMENT REDUCTION CALCULATOR</a></li>
@@ -286,9 +286,11 @@
               </div>
               <div class="copy"></div>
             </div>
-    </div>
-    <!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="margin-top:60px;">
+        </div>
+
+  </div>
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="margin-top:50px;">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="calculator">
@@ -296,13 +298,13 @@
         <div class="calc-container" style="margin:0.5em;">
           <div class="form-group hvr-underline-from-left calc-form-group">
             <label for="orgPayment">Total Original Monthly Payment on Your First (or "primary") and Second Mortgage.</label>
-            <input type="number" placeholder="$" class="form-control" id="mortgagePayment" required>
+            <input type="number" placeholder="$" class="form-control" id="mob-mortgagePayment" required>
           </div>
           <div class="form-group hvr-underline-from-left calc-form-group">
             <label for="grossIncome">Your Gross Monthly Income.</label>
-            <input type="number" class="form-control" placeholder="$" id="monthlyIncome" min="0.01" max="1000000" onkeypress="return isNumberKey(event)">
+            <input type="number" class="form-control" placeholder="$" id="mob-monthlyIncome" min="0.01" max="1000000" onkeypress="return isNumberKey(event)">
           </div>
-          <a class="btn green-btn hvr-sweep-to-bottom" id="calculateBtn">CALCULATE</a>
+          <a class="btn green-btn hvr-sweep-to-bottom" id="mob-calculateBtn">CALCULATE</a>
         </div>
       </div>
       <div class="result result-approved">
@@ -310,7 +312,7 @@
         <div class="calc-container">
           <div class="">
             <div>
-            <p id="results"></p>
+            <p id="mob-results"></p>
             <br>
             <p>Email us at:</p>
             <a class="email">fameemail@fake.com</a>
@@ -324,7 +326,7 @@
         <div class="calc-container">
           <div class="">
             <div>
-            <p id="neg-results"></p>
+            <p id="mob-neg-results"></p>
             <br>
             <p>Email us at:</p>
             <a class="email">fakeemail@fake.com</a>
@@ -335,7 +337,6 @@
     </div>
   </div>
 </div>
-  </div>
 </div>
 
  <!-- /container -->

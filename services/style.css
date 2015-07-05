@@ -1,0 +1,80 @@
+.about-vertical-center{
+  min-height: 60%;
+  min-height: 60vh;
+  display: flex;
+  align-items:center;
+  line-height: 60%;
+}
+.header-text{
+  font-family: 'Roboto Slab';
+  color: #48546E;
+  text-shadow: 1px 1px 0px #FFF;
+}
+.about-header{
+  font-size:64px;
+  color: black;
+    color: #48546E;
+  text-shadow: 1px 1px 0px #FFF;
+}
+.about-head-text{
+  font-family: 'Roboto Slab', serif;
+  color: #79A426;
+}
+
+.about-row{
+  text-align: center;
+}
+
+.card{
+  background-color:white;
+  min-height: 400px;
+  font-family: 'Roboto';
+  padding: 1em;
+}
+.card{
+}
+.card > p {
+  font-size: 18px;
+  margin: 0 2em;
+}
+.col-xs-4{
+  padding: 0;
+}
+
+.icon-head{
+  font-size: 3.0em;
+}
+.save-now{
+  height: 100%;
+}
+.mobile-nav{
+  display: none;
+}
+@media (max-width: 768px){
+  .about-vertical-center{
+  }
+  .navbar-default{
+    background: #48546E;
+    border-radius: 4px;
+    box-shadow: none;
+    z-index: 99;
+    text-align: right;
+    font-size: 1.4em;
+  }
+  .desktop-nav{
+    display: none;
+  }
+  .mobile-nav{
+    display: block;
+  }
+  .about-header{
+    font-size: 54px;
+    text-align: center;
+    margin-top: 60px;
+    line-height: 100%;
+  }
+  .header-text{
+    text-align: center;
+    margin-top: 10px;
+  }
+}
