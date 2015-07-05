@@ -2,6 +2,10 @@
   min-height: 60%;
   min-height: 60vh;
   display: flex;
+   display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox; /* TWEENER - IE 10 */
+  display: -webkit-flex;
    -webkit-box-align: center;
   -webkit-flex-align: center;
   -ms-flex-align: center;
