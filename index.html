@@ -227,7 +227,7 @@
         <h1 class="mobile-header">The Best in Mortgage Reduction</h1>
       </div>
       <div class="col-xs-6 calculatorMobile vcenter">
-        <a class="btn green-btn hvr-sweep-to-bottom mob-button" href="#" role="button">CALCULATOR</a>
+        <a class="btn green-btn hvr-sweep-to-bottom mob-button" data-toggle="modal" data-target="#myModal" role="button">CALCULATOR</a>
       </div>
     </div>
   </div>
@@ -263,7 +263,7 @@
   </div>
   <div class="mob-block-four">
         <div class="row footer">
-            <div class="footer-content col-xs-12">
+          <div class="footer-content col-xs-12">
             <div class="newsletter col-xs-12" style="background-color:transparent; padding:0;">
               <div class="news-letter-container" style="padding:0;">
               <h2 class="news-header">News Letter</h2>
@@ -273,7 +273,6 @@
                     <a id="signupButton" alt="Submit" align="right" width="48" height="48" style="width:45px;"><i class="fa fa-envelope"></i></a>
                   </form>  
                 </div>
-
               </div>
             </div>
               <div class="social">
@@ -287,11 +286,56 @@
               </div>
               <div class="copy"></div>
             </div>
+    </div>
+    <!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="margin-top:60px;">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="calculator">
+        <h2 class="calc-header">SAVE NOW</h2>
+        <div class="calc-container" style="margin:0.5em;">
+          <div class="form-group hvr-underline-from-left calc-form-group">
+            <label for="orgPayment">Total Original Monthly Payment on Your First (or "primary") and Second Mortgage.</label>
+            <input type="number" placeholder="$" class="form-control" id="mortgagePayment" required>
+          </div>
+          <div class="form-group hvr-underline-from-left calc-form-group">
+            <label for="grossIncome">Your Gross Monthly Income.</label>
+            <input type="number" class="form-control" placeholder="$" id="monthlyIncome" min="0.01" max="1000000" onkeypress="return isNumberKey(event)">
+          </div>
+          <a class="btn green-btn hvr-sweep-to-bottom" id="calculateBtn">CALCULATE</a>
         </div>
-
+      </div>
+      <div class="result result-approved">
+        <h2 class="calc-header" style="color:white;">You're Approved!</h2>
+        <div class="calc-container">
+          <div class="">
+            <div>
+            <p id="results"></p>
+            <br>
+            <p>Email us at:</p>
+            <a class="email">fameemail@fake.com</a>
+            
+            </div>
+          </div>
+        </div>                
+      </div>
+      <div class="result result-disapproved">
+        <h2 class="calc-header">Sorry you are not approved</h2>
+        <div class="calc-container">
+          <div class="">
+            <div>
+            <p id="neg-results"></p>
+            <br>
+            <p>Email us at:</p>
+            <a class="email">fakeemail@fake.com</a>
+            </div>
+          </div>
+        </div>                
+      </div>
+    </div>
   </div>
-
-
+</div>
+  </div>
 </div>
 
  <!-- /container -->
