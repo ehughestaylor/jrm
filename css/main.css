@@ -220,6 +220,7 @@ input::-webkit-inner-spin-button {
   border-radius: 0;
   font-size: 18px;
   font-weight: 100;
+  border: none;
 }
 .blue-btn{
   background-color: #3A61B1;
@@ -477,6 +478,7 @@ input:-webkit-autofill {
   display: inline-block;
   padding: 1em;
   font-size: 22px;
+  text-align: right;
 }
 .icon > a {
   color: white;
@@ -488,12 +490,33 @@ input:-webkit-autofill {
 .footer-link{
   font-family: 'Roboto Slab', sans-serif;
   display: inline-block;
+  text-align: right;
 }
 .footer-link > a{
   color: white;
   font-weight: 100;
   margin: 0 10px;
+  transition: border-bottom ease-in-out .3s;
+  -webkit-webkit-transition: border-bottom ease-in-out .3s;
+  -moz-webkit-transition: border-bottom ease-in-out .3s;
+  -ms-webkit-transition: border-bottom ease-in-out .3s;
+  -o-webkit-transition: border-bottom ease-in-out .3s;
+  webkit-transition: border-bottom ease-in-out .3s;
 }
+.footer-link:hover > a{
+  color: white;
+  font-weight: 100;
+  margin: 0 10px;
+  border-bottom: 1px solid #79A426;
+  text-decoration: none;
+  transition: border-bottom ease-in-out .3s;
+  -webkit-webkit-transition: border-bottom ease-in-out .3s;
+  -moz-webkit-transition: border-bottom ease-in-out .3s;
+  -ms-webkit-transition: border-bottom ease-in-out .3s;
+  -o-webkit-transition: border-bottom ease-in-out .3s;
+  webkit-transition: border-bottom ease-in-out .3s;
+}
+
 
 hr {
   margin-top: 0
@@ -678,6 +701,9 @@ hr {
   }
   .mobile-wrapper{
     display: block;
+  }
+  .links{
+    display: none;
   }
 }
 
