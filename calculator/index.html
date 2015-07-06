@@ -28,7 +28,7 @@
         <![endif]-->
 
 <!-- Main jumbotron for a primary marketing message or call to action -->
-<div class="calculator-wrapper" style="background-color:#48546E;">
+<div class="wrapper" class="parallax-window" data-parallax="scroll" data-image-src="../img/calculator.png" style="background-color:rgba(0,0,0,0.4)">
 
 <div >
   <div class="about-vertical-center">
@@ -51,13 +51,27 @@
             <li class="hvr-underline-from-left"><a href="../index.html">HOME</a></li>
             <li class="hvr-underline-from-left"><a href="../about/index.html">ABOUT</a></li>
             <li class="hvr-underline-from-left"><a href="../services/index.html">OUR SERVICES</a></li>
-            <li class="hvr-underline-from-left"><a href="../success/index.html">SUCCESS STORIES</a></li>            
+            <li class="hvr-underline-from-left active"><a href="#">SUCCESS STORIES</a></li>            
             <li class="hvr-underline-from-left"><a href="../contact/index.html">CONTACT US</a></li>
-            <li class="hvr-underline-from-left active"><a href="#">PAYMENT REDUCTION CALCULATOR</a></li>
+            <li class="hvr-underline-from-left"><a href="../calculator/index.html">PAYMENT REDUCTION CALCULATOR</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8" style="text-align:center;">
+          <h1 class="about-header">Payment Reduction Calculator</h1>
+        </div>
+        <div class="col-md-2"></div>
+        <div class="col-md-2"></div>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- SUCCESS CONTENT -->
+<div class="row about-row" style="background-color:#48546E; padding:1.5em 0;">
     <div class="container">
       <div class="row contact-row">
         <div class="col-md-8" style="text-align:center;">
@@ -111,21 +125,19 @@
         </div>
       </div>
     </div>
-  </div>
-</div>
 </div>
   <div class="row footer">
-            <div class="newsletter col-xs-12" style="background-color:rgba(122,164,38,0.8); padding:0;">
-              <div class="news-letter-container" style="padding:0;">
-              <h2 class="news-header">News Letter</h2>
-                <div class="form-group hvr-underline-from-left news-letter-form">
-                  <form action="demo_form.asp">
-                    <input type="email" id="emailForm" name="email" placeholder="youremail@email.com">
-                    <a id="signupButton" alt="Submit" align="right" width="48" height="48" style="width:45px;"><i class="fa fa-envelope"></i></a>
-                  </form>  
-                </div>
-              </div>
-            </div>
+      <div class="newsletter col-xs-12" style="background-color:rgba(122,164,38,0.6); padding:0;">
+        <div class="news-letter-container" style="padding:0;">
+        <h2 class="news-header">News Letter</h2>
+          <div class="form-group hvr-underline-from-left news-letter-form">
+            <form action="demo_form.asp">
+              <input type="email" id="emailForm" name="email" placeholder="youremail@email.com">
+              <a id="signupButton" alt="Submit" align="right" width="48" height="48" style="width:45px;"><i class="fa fa-envelope"></i></a>
+            </form>  
+          </div>
+        </div>
+      </div>
       <div class="footer-content col-xs-12">
         <div class="social">
           <ul>
@@ -175,3 +187,8 @@
         </script>
     </body>
 </html>
+
+
+
+
+
