@@ -139,6 +139,9 @@ h2{
   cursor: pointer;
   color:white;
 }
+  h2{
+    font-size: 45px;
+  }
 }
 
 
