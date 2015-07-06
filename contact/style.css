@@ -85,6 +85,13 @@
     text-shadow:none;
   text-shadow: 1px 1px 0px #000;
   }
+.contact-icon {
+  padding: 0px 0.3em;
+  margin: 0.5em 0;
+  font-size: 1.8em;
+  display: inline-block;
+  cursor: pointer;
+}
 }
 
 
