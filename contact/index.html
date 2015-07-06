@@ -28,9 +28,9 @@
         <![endif]-->
 
 <!-- Main jumbotron for a primary marketing message or call to action -->
-<div class="about-wrapper" style="background-color:#48546E;">
+<div class="wrapper" class="parallax-window" data-parallax="scroll" data-image-src="../img/servicesback.png" style="background-color:rgba(72,84,110,0.7)">
 
-<div >
+
   <div class="about-vertical-center">
     <nav class="navbar navbar-default">
       <div class="container-fluid">
@@ -58,31 +58,69 @@
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
-    <div class="container" style="padding:0; border-bottom:4px solid #79A426">
-      <div class="row contact-row">
-      <div class="col-md-2"></div>
-        <div class="col-md-8" style="text-align:center;">
-          <h1 class="about-header">We are here anytime you need us.</h1>
-          <br>
-          <h1 class="about-header" style="text-align:right;">Feel free to stop in or give us a call.</h1>
-        </div>
-        <div class="col-md-2 col-xs-12">
-          <h3 class="header-text">
-          <ul style="list-style-type:none;">
+  </div>
+  <div class="about-wrapper">
+  <div class="container">
+  <div class="row" style="margin-top:65px; margin-bottom:15px;">
+
+    <div class="col-md-6 contact-info">
+      <h2>We are here anytime you need us. <br>Stop by, or, Give us a call. </h2>
+      <ul style="list-style-type:none; text-align:center; margin-top:40px;">
             <li class="contact-icon hvr-float-shadow"><i class="fa fa-facebook"></i></li>
             <li class="contact-icon hvr-float-shadow"><i class="fa fa-google"></i></li>
             <li class="contact-icon hvr-float-shadow"><i class="fa fa-instagram"></i></li>
             <li class="contact-icon hvr-float-shadow"><i class="fa fa-phone-square"></i></li>
             <li class="contact-icon hvr-float-shadow"><i class="fa fa-location-arrow"></i></li>
-          </ul></h3>
+          </ul>
+    </div>
+    <div class="col-md-6 contact-form">
+      <form class="form-horizontal">
+      <fieldset>
+
+      <!-- Text input-->
+      <div class="control-group" style="padding-top:10px;">
+        <label class="control-label" for="fullName">Name</label>
+        <div class="controls">
+          <input class="contact-form-input" id="fullName" name="fullName" type="text" placeholder="Full Name" class="input-xlarge">
+          
         </div>
       </div>
+
+      <!-- Text input-->
+      <div class="control-group">
+        <label class="control-label" for="contactEmail">Email</label>
+        <div class="controls">
+          <input class="contact-form-input" id="contactEmail" name="contactEmail" type="text" placeholder="email@email.com" class="input-xlarge">
+          
+        </div>
+      </div>
+
+      <!-- Textarea -->
+      <div class="control-group">
+        <label class="control-label" for="questionComments">Comments</label>
+        <div class="controls">                     
+          <textarea style="padding:1em; height:200px;" class="contact-form-input" id="questionComments" name="questionComments">Questions and comments</textarea>
+        </div>
+      </div>
+
+      <!-- Button -->
+      <div class="control-group">
+        <label class="control-label" for="emailFormSubmit"></label>
+        <div class="controls">
+          <button id="emailFormSubmit" name="emailFormSubmit" class="btn green-btn hvr-sweep-to-bottom" >Submit</button>
+        </div>
+      </div>
+
+      </fieldset>
+      </form>
     </div>
   </div>
-</div>
-</div>
+  </div>
 
+    
+  </div>
 
+</div>
 
  <!-- /container -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>

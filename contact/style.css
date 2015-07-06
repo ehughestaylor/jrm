@@ -49,12 +49,58 @@
 .contact-icon{
   padding: 0 1em;
   margin: 0.5em 0;
-  font-size: 1.8em;
+  font-size: 2.5em;
   display: inline-block;
   cursor: pointer;
+  color: white;
+}
+.controls{
+  padding: 1em;
+}
+.controls input,
+.controls textarea {
+  width: 100%;
 }
 
+.contact-form{
+  font-family: 'Roboto', sans-serif;
+  background-color: rgba(255,255,255,0.5);
+}
+.contact-info{
+  background-color: rgba();
+}
 
+.contact-form-input{
+  height: 36px;
+  border-color:white;
+  border: none;
+  outline: none;
+  padding: 0 50px;
+  font-family: 'Roboto', sans-serif;
+    transition: background-color ease-in-out .3s;
+  -webkit-webkit-transition: background-color ease-in-out .3s;
+  -moz-webkit-transition: background-color ease-in-out .3s;
+  -ms-webkit-transition: background-color ease-in-out .3s;
+  -o-webkit-transition: background-color ease-in-out .3s;
+  webkit-transition: background-color ease-in-out .3s;
+}
+
+.contact-input-form:focus{
+  background-color:#3A61B1;
+  color: white;
+  transition: background-color ease-in-out .3s;
+  -webkit-webkit-transition: background-color ease-in-out .3s;
+  -moz-webkit-transition: background-color ease-in-out .3s;
+  -ms-webkit-transition: background-color ease-in-out .3s;
+  -o-webkit-transition: background-color ease-in-out .3s;
+  webkit-transition: background-color ease-in-out .3s;
+}
+h2{
+  font-size: 64px;
+  color: white;
+  text-align: center;
+  text-shadow:1px 3px 2px #000;
+}
 @media (max-width: 768px){
   .navbar-default{
     background: #48546E;
@@ -91,6 +137,7 @@
   font-size: 1.8em;
   display: inline-block;
   cursor: pointer;
+  color:white;
 }
 }
 
