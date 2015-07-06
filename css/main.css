@@ -184,21 +184,26 @@ input::-webkit-inner-spin-button {
   max-width: 350px;
 }
 .result{
-  min-height: 374px;
+  max-height: 374px;
   margin: 0 auto;
   max-width: 350px;
-
+  padding: 1em 0;
+}
+#results,
+#mob-results{
+  line-height: 2em;
+  font-size: 18px;
 }
 .result-approved{
     background-color: #79A426;
-    min-height: 374px;
+    max-height: 374px;
     margin: 0 auto;
     max-width: 350px;
     display: none;
 }
 .result-disapproved{
   background-color: #F04B2C;
-    min-height: 374px;
+    max-height: 374px;
     margin: 0 auto;
     max-width: 350px;
     display: none;
@@ -253,6 +258,13 @@ input::-webkit-inner-spin-button {
 .email{
   color: #3A61B1;
   cursor: pointer;
+}
+.close{
+  padding: 10px;
+  position: relative;
+  top: 0;
+  right: 0;
+  font-size: 20px;
 }
 
 /*FORM CONTROL STYLES*/

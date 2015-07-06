@@ -53,5 +53,5 @@ $(document).ready(function(){
     });
     $('#mob-calculateBtn').on('click',function(){
       mobileCalculate();   
-    })
+    });
 });
