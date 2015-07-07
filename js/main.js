@@ -48,7 +48,7 @@ function mobileCalculate(){
 }
 
 $(window).load(function(){
-  $('#preloader').fadeOut('slow',function(){$(this).remove();});
+  $('.loading-body').fadeOut('slow',function(){$(this).remove();});
 });
 
 $(document).ready(function(){
