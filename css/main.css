@@ -690,6 +690,11 @@ hr {
    box-shadow: none; 
 }
 
+
+
+.js div#preloader { position: fixed; left: 0; top: 0; z-index: 999; width: 100%; height: 100%; overflow: visible; background: #7AA426 url('../img/728.GIF') no-repeat center center; }
+
+
 /*======MODAL==========*/
 
 .modal-content{
