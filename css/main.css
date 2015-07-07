@@ -367,7 +367,7 @@ text-align: left;
 }
 /*TOP LEFT BLOCK*/
 .case-study{
-  background-image: url('../img/family.png');
+  background-image: url('../img/family.jpg');
   background-size:100%;
 }
 .case-study .testimonial{
@@ -391,7 +391,7 @@ text-align: left;
 }
 /*BOTTOM RIGHT BLOCK*/
 .jrm-way{
-  background-image: url('../img/house.png');
+  background-image: url('../img/house.jpg');
   background-size: 100%;
   background-position: center;
 }
