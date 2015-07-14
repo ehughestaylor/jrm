@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="249px" height="209px" viewBox="0 0 249 209" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+<svg width="335px" height="209px" viewBox="0 0 335 209" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
     <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
     <title>jrm-logo</title>
     <desc>Created with Sketch.</desc>
@@ -16,14 +16,17 @@
     <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
         <g id="Desktop-Landscape" sketch:type="MSArtboardGroup" transform="translate(-52.000000, -469.000000)">
             <g id="jrm-logo" sketch:type="MSLayerGroup" transform="translate(52.000000, 469.000000)">
-                <g sketch:type="MSShapeGroup">
-                    <polygon id="Triangle-1" fill="#013D59" points="124.5 0 249 117 0 117 "></polygon>
-                    <path d="M124.5,100.008267 L124.5,43.0027843 L201.5,116 L124.5,116 L124.5,100.008267 Z" id="Triangle-3" fill="#FFFFFF"></path>
-                    <rect id="Rectangle-45" fill="#013D5F" x="42" y="117" width="169" height="92"></rect>
-                    <rect id="Rectangle-46" fill="#FFFFFF" x="69" y="116" width="112" height="61"></rect>
-                    <polygon id="Triangle-4" fill="url(#linearGradient-1)" points="124.5 39.0119276 124.5 117 41.5 117 "></polygon>
-                    <path d="M124.5,117 L210.245696,117 L124.5,39.0119276 L124.5,117 Z" id="Triangle-4-Copy" fill="url(#linearGradient-2)"></path>
-                    <rect id="Rectangle-47" fill="#013D5F" x="110" y="148" width="31" height="37"></rect>
+                <g>
+                    <polygon id="Triangle-1" fill="#013D59" sketch:type="MSShapeGroup" points="124.5 0 249 117 0 117 "></polygon>
+                    <path d="M124.5,100.008267 L124.5,43.0027843 L201.5,116 L124.5,116 L124.5,100.008267 Z" id="Triangle-3" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+                    <rect id="Rectangle-45" fill="#013D5F" sketch:type="MSShapeGroup" x="42" y="117" width="169" height="92"></rect>
+                    <rect id="Rectangle-46" fill="#FFFFFF" sketch:type="MSShapeGroup" x="69" y="116" width="112" height="61"></rect>
+                    <polygon id="Triangle-4" fill="url(#linearGradient-1)" sketch:type="MSShapeGroup" points="124.5 39.0119276 124.5 117 41.5 117 "></polygon>
+                    <path d="M124.5,117 L210.245696,117 L124.5,39.0119276 L124.5,117 Z" id="Triangle-4-Copy" fill="url(#linearGradient-2)" sketch:type="MSShapeGroup"></path>
+                    <rect id="Rectangle-47" fill="#013D5F" sketch:type="MSShapeGroup" x="110" y="148" width="31" height="37"></rect>
+                    <text id="JRM" sketch:type="MSTextLayer" font-family="Roboto" font-size="36" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="264" y="125">JRM</tspan>
+                    </text>
                 </g>
             </g>
         </g>
