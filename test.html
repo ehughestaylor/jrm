@@ -19,7 +19,7 @@
         </style>
         <link rel="stylesheet" href="css/hover-min.css">
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/test.css">
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
@@ -37,7 +37,7 @@
     
 
 
-<div class="desktop-wrapper">
+<div class="desktop-wrapper" class="parallax-window" data-parallax="scroll" data-image-src="../img/background.jpg">
   <div class="jumbotron vertical-center">
   <nav class="navbar navbar-default">
     <div class="container-fluid">
@@ -74,7 +74,7 @@
             <div class="col-md-5 vcenter">
               <div class="calculator">
                 <h2 class="calc-header">SAVE NOW</h2>
-                <div class="calc-container" style="margin:0.5em;">
+                <div class="container calc-container">
                   <div class="form-group hvr-underline-from-left calc-form-group">
                     <label for="orgPayment">Total Original Monthly Payment on Your First (or "primary") and Second Mortgage.</label>
                     <input type="number" placeholder="$" class="form-control" id="mortgagePayment" required>
@@ -88,12 +88,13 @@
               </div>
               <div class="result result-approved">
                 <h2 class="calc-header" style="color:white;">You're Approved!</h2>
-                <div class="calc-container">
-                  <div class="">
+                <div class="container calc-container">
+                  <div class="container">
                     <div>
                     <p id="results"></p>
                     <br>
-                    <a class="btn blue-btn hvr-float-shadow blue" href="../contact/index.html" role="button">CONTACT US!</a>
+                    <p>Email us at:</p>
+                    <a class="email">fameemail@fake.com</a>
                     
                     </div>
                   </div>
@@ -176,10 +177,11 @@
             <div class="footer-content col-xs-12">
               <div class="social">
                 <ul>
-                  <li class="icon hvr-float-shadow"><a href="https://www.facebook.com/jrmassociates"><i class="fa fa-facebook"></i></a></li>
-                  <li class="icon hvr-float-shadow"><a href="https://twitter.com/jrmassociates"><i class="fa fa-twitter"></i></a></li>
-                  <li class="icon hvr-float-shadow"><a href="https://plus.google.com/110429287073597404852"><i class="fa fa-google"></i></a></li>
-                  <li class="icon hvr-float-shadow"><a href="tel:+(844) 491-7686"><i class="fa fa-phone"></i></a></li>
+                  <li class="icon hvr-float-shadow"><a href=""><i class="fa fa-facebook"></i></a></li>
+                  <li class="icon hvr-float-shadow"><a href=""><i class="fa fa-instagram"></i></a></li>
+                  <li class="icon hvr-float-shadow"><a href=""><i class="fa fa-twitter"></i></a></li>
+                  <li class="icon hvr-float-shadow"><a href=""><i class="fa fa-google"></i></a></li>
+                  <li class="icon hvr-float-shadow"><a href=""><i class="fa fa-phone"></i></a></li>
                 </ul>
               </div>
               <div class="links">
@@ -337,7 +339,7 @@
         <div class="calc-container">
           <div class="">
             <div>
-            <p id="mob-neg-results"></p>
+            <p id="neg-results"></p>
             <br>
             <a class="btn blue-btn hvr-float-shadow blue" href="../contact/index.html" role="button">CONTACT US!</a>
             </div>

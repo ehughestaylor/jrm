@@ -207,8 +207,9 @@ input::-webkit-inner-spin-button {
   padding: 1em;
 }
 .result-disapproved {
-  background-color: rgba(240,75,44,0.94);
+  background-color: rgba(113,30,15,0.94);
   max-height: 400px;
+  color: white;
   margin: 0 auto;
   display: none;
   padding: 1em;
