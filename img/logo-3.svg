@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="249px" height="272px" viewBox="0 0 249 272" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>logo-3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="2.46332908%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#E9F6FE" offset="0%"></stop>
+            <stop stop-color="#ADE6F7" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="2.46332908%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#86A838" offset="0%"></stop>
+            <stop stop-color="#D0DD1C" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop-Landscape" sketch:type="MSArtboardGroup" transform="translate(-357.000000, -14.000000)">
+            <g id="logo-3" sketch:type="MSLayerGroup" transform="translate(357.000000, 14.000000)">
+                <polygon id="Triangle-1-Copy" fill="#013D59" sketch:type="MSShapeGroup" points="124.5 0 249 117 0 117 "></polygon>
+                <path d="M124.5,100.008267 L124.5,43.0027843 L201.5,116 L124.5,116 L124.5,100.008267 Z" id="Triangle-3-Copy" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+                <rect id="Rectangle-45-Copy" fill="#013D5F" sketch:type="MSShapeGroup" x="42" y="117" width="169" height="92"></rect>
+                <rect id="Rectangle-46-Copy" fill="#FFFFFF" sketch:type="MSShapeGroup" x="69" y="116" width="112" height="61"></rect>
+                <polygon id="Triangle-4-Copy-2" fill="url(#linearGradient-1)" sketch:type="MSShapeGroup" points="124.5 39.0119276 124.5 117 41.5 117 "></polygon>
+                <path d="M124.5,117 L210.245696,117 L124.5,39.0119276 L124.5,117 Z" id="Triangle-4-Copy-3" fill="url(#linearGradient-2)" sketch:type="MSShapeGroup"></path>
+                <rect id="Rectangle-47-Copy" fill="#013D5F" sketch:type="MSShapeGroup" x="110" y="148" width="31" height="37"></rect>
+                <text id="JRM-Copy" sketch:type="MSTextLayer" font-family="Roboto" font-size="36" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
+                    <tspan x="87.7705078" y="242">JRM</tspan>
+                    <tspan x="161.229492" y="242" font-size="64"></tspan>
+                    <tspan x="43.0341797" y="284" font-size="18">Mortgage Reduction</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

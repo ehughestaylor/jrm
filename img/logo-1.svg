@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="710px" height="312px" viewBox="0 0 710 312" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>logo-1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="2.46332908%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#E9F6FE" offset="0%"></stop>
+            <stop stop-color="#ADE6F7" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="2.46332908%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#86A838" offset="0%"></stop>
+            <stop stop-color="#D0DD1C" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop-Landscape" sketch:type="MSArtboardGroup" transform="translate(-255.000000, -327.000000)">
+            <g id="logo-1" sketch:type="MSLayerGroup" transform="translate(255.000000, 327.000000)">
+                <g id="jrm-logo-copy-4">
+                    <rect id="Rectangle-55" fill="#FFFFFF" sketch:type="MSShapeGroup" x="0" y="0" width="710" height="312"></rect>
+                    <polygon id="Triangle-1" fill="#013D59" sketch:type="MSShapeGroup" points="508.5 51 633 168 384 168 "></polygon>
+                    <path d="M508.5,151.008267 L508.5,94.0027843 L585.5,167 L508.5,167 L508.5,151.008267 Z" id="Triangle-3" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+                    <rect id="Rectangle-45" fill="#013D5F" sketch:type="MSShapeGroup" x="426" y="168" width="169" height="92"></rect>
+                    <rect id="Rectangle-46" fill="#FFFFFF" sketch:type="MSShapeGroup" x="453" y="167" width="112" height="61"></rect>
+                    <polygon id="Triangle-4" fill="url(#linearGradient-1)" sketch:type="MSShapeGroup" points="508.5 90.0119276 508.5 168 425.5 168 "></polygon>
+                    <path d="M508.5,168 L594.245696,168 L508.5,90.0119276 L508.5,168 Z" id="Triangle-4-Copy" fill="url(#linearGradient-2)" sketch:type="MSShapeGroup"></path>
+                    <rect id="Rectangle-47" fill="#013D5F" sketch:type="MSShapeGroup" x="494" y="199" width="31" height="37"></rect>
+                    <text id="JRM" sketch:type="MSTextLayer" font-family="Roboto" font-size="144" font-weight="normal" fill="#013D59">
+                        <tspan x="61" y="225">JRM</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
