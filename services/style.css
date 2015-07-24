@@ -15,16 +15,18 @@
 }
 .header-text{
   font-family: 'Roboto Slab';
-  color: #48546E;
+  color: white;
+  text-shadow:1px 1px 1px black;
 }
 .about-header{
   font-size:64px;
-  color: black;
-    color: #48546E;
+    color: white;
+  text-shadow:1px 1px 1px black;
 }
 .about-head-text{
   font-family: 'Roboto Slab', serif;
   color: #79A426;
+
 }
 
 .about-row{

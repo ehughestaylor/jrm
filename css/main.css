@@ -786,6 +786,12 @@ hr {
   background-color: transparent;
 }
 
+@media(max-width: 1140px){
+  .navbar-default .navbar-nav>li>a{
+    font-size: 0.81em;
+  }
+}
+
 @media (max-width: 992px){
   .navbar-default .navbar-nav>li>a {
     color: #FFF;
@@ -795,7 +801,7 @@ hr {
   }
 }
 
-@media (max-width: 992px){
+@media (max-width: 1000px){
   .jumbotron{
     background-size: 100% 100%;
     text-align: center;
@@ -804,9 +810,17 @@ hr {
   .navbar-default .navbar-nav>li>a {
   color: #FFF;
   text-shadow: 0 1px 4px #000;
-  font-size: 0.8em;
+  font-size: 0.7em;
   letter-spacing: 0px;
   }
+}
+@media(max-width: 795px){
+  .navbar-default .navbar-nav>li>a {
+    color: #FFF;
+    text-shadow: 0 1px 4px #000;
+    font-size: 0.6em;
+    letter-spacing: 0px;
+  }  
 }
 @media (max-width: 768px){
   .desktop-wrapper{
